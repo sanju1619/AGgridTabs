@@ -11,7 +11,7 @@ const App = () => {
 
   const columnDefsLabor = [
     { headerName: 'Labor Category', field: 'laborCategory', editable: true },
-    { headerName: 'Carrier Supplied Rates', field: 'carrierSuppliedRates' },
+    { headerName: 'Carrier Supplied Rates', field: 'carrierSuppliedRates',cellStyle:{color:"blue"} },
     {
       headerName: 'Collision Information Rate (Calculated as Average)',
       field: 'collisionInfoRate',
